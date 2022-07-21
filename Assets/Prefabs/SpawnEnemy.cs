@@ -54,10 +54,11 @@ public class SpawnEnemy : MonoBehaviour
                 enemiesSpawned = 0;
                 lastSpawnTime = Time.time;
             }
-            else
-            {
-                gameManager.gameOver = true;
-            }
+
+        }
+        else
+        {
+            gameManager.gameOver = true;
         }
     }
 }
